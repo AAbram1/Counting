@@ -1,0 +1,23 @@
+function count(n) {
+  
+  if(Math.sign(n) !== -1){
+    for ( i =1; i<=n ; i++){
+      console.log(i);
+    }
+    y=1;
+    while(y <= n ){
+      console.log(y);
+      y++;
+    }
+  }
+  else if(Math.sign(n) === -1)
+    for (i = n; i<= -1 ; i++){
+      console.log(i)
+    }
+    y = n;
+    while( y <= -1){
+      console.log(y)
+      y++
+    }
+}
+count(-4);
